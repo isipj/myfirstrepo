@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Help Question</h1>
+    <form action="receipt.html">
+        <h4>Name & Address</h4>
+        <label for="nameid">Enter your name:</label>
+        <input type="text" name="customerName" id="nameid" placeholder="Name (Required)" autofocus required>
+        <br><br>
+        <label for="city_input">Place:</label>
+        <input type="text" name="customerCity" id="city_input" placeholder="City/Town">
+        <br><br>
+        <label for="postal_code">Postal code:</label>
+        <input type="text" name="customerPostalcode" id="postal_code" placeholder="X0X0X0">
+        <br><br>
+        <hr>
+        <h4>Enter pool type:</h4>
+        <label for="">InGround Pool</label>
+        <input type="radio" name="poolType" value="InGround">
+        <label for="">AboveGround Pool</label>
+        <input type="radio" name="poolType" value="AboveGround">
+        <hr>
+        <h4>Select your service:</h4>
+        <label for="problem1">Water cleaning</label>
+        <input type="checkbox" name="problem" id="problem1" value="waterCleaning">
+        <label for="problem1">Water colouring</label>
+        <input type="checkbox" name="problem" id="problem2" value="waterColouring">
+        <br><br>
+        <hr>
+        <h4>Select pool size:</h4>
+        <select name="poolSize" id="" size="2">
+            <option value="regular">Regular</option>
+            <option value="small">Small</option>
+            <option value="large">Large</option>
+            <option value="olympic">Olympic</option>
+        </select>
+        <br><br>
+        <h4>Schedule appointment date:</h4>
+        <input type="date" name="appointmentDate" id="date">
+        <br><br>
+        <input type="submit">
+        <input type="reset">
+    </form>
+</body>
+</html>
